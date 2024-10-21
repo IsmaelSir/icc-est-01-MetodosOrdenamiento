@@ -71,7 +71,7 @@ public class MetodosDeOrdenamiento {
                         +"valor a= "+ arr[j]+" valor b= "+arr[i]);
             }
             while(asendente
-                    ? j >=0 && arr[j] > aux : j >=0 && arr[j] > aux){
+                    ? j >=0 && arr[j] > aux : j >=0 && arr[j] < aux){
                 arr[j+1] = arr[j];
                 j--;
                 if(verPaso){
